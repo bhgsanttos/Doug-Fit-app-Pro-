@@ -9,12 +9,11 @@
 <body>
   <div class="container">
     <h1>Doug Fit</h1>
-    <p>Entre ou crie sua conta para começar!</p>
-    <button onclick="redirecionarCriarConta()">Criar Conta</button>
-  </div>
-
-  <div id="alerta" class="alerta">
-    Redirecionando para a criação de conta...
+    <input type="email" id="emailLogin" placeholder="Seu e-mail" required />
+    <input type="password" id="senhaLogin" placeholder="Sua senha" required />
+    <button onclick="fazerLogin()">Entrar</button>
+    <p><a href="criar-conta.html">Criar Conta</a></p>
+    <div id="mensagem"></div>
   </div>
 
   <script src="script.js"></script>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Doug Fit - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body class="light-mode">
+
+  <header class="header">
+    <h1>Doug Fit</h1>
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <nav class="tab-menu">
+    <button onclick="showTab('treino')">Treino</button>
+    <button onclick="showTab('dieta')">Dieta</button>
+    <button onclick="showTab('avaliacao')">Avaliação</button>
+  </nav>
+
+  <main>
+    <section id="treino" class="tab-content">
+      <h2>Treinos</h2>
+      <p>Escolha entre treinos para hipertrofia, emagrecimento, massa muscular e muito mais.</p>
+    </section>
+
+    <section id="dieta" class="tab-content" style="display:none">
+      <h2>Dietas</h2>
+      <p>Dietas personalizadas para cada objetivo e fase.</p>
+    </section>
+
+    <section id="avaliacao" class="tab-content" style="display:none">
+      <h2>Avaliação Corporal</h2>
+      <p>Registre seus dados físicos e acompanhe sua evolução.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <button onclick="window.location.href='index.html'">Sair</button>
+  </footer>
+
+</body>
+</html>

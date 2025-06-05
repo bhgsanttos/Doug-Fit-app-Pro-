@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #000;
   color: #00ff88;
@@ -5,38 +11,40 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
+  min-height: 100vh;
+  padding: 20px;
 }
 
 .container {
   background-color: #111;
-  padding: 30px;
+  padding: 30px 20px;
   border-radius: 10px;
   box-shadow: 0 0 15px #00ff88;
   text-align: center;
-  width: 90%;
-  max-width: 350px;
+  width: 100%;
+  max-width: 400px;
 }
 
 input {
   width: 100%;
-  padding: 12px;
+  padding: 14px;
   margin: 10px 0;
   border: none;
   border-radius: 5px;
+  font-size: 16px;
 }
 
 button {
   background-color: transparent;
   border: 2px solid #00ff88;
   color: #00ff88;
-  padding: 12px 20px;
+  padding: 14px;
   border-radius: 5px;
   cursor: pointer;
+  width: 100%;
+  font-size: 16px;
   margin-top: 10px;
   transition: 0.3s;
-  width: 100%;
 }
 
 button:hover {
@@ -47,9 +55,25 @@ button:hover {
 a {
   color: #00ff88;
   text-decoration: none;
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 14px;
 }
 
 #mensagem, #mensagemCadastro {
   margin-top: 10px;
   font-size: 14px;
+  color: #fff;
+  word-wrap: break-word;
 }
+  
+
+a {
+  color: #00ff88;
+  text-decoration: none;
+}
+
+#mensagem, #mensagemCadastro {
+  margin-top: 10px;
+  font-size: 14px;
+}a
